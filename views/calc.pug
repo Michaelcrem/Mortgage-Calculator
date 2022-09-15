@@ -1,0 +1,100 @@
+doctype html
+
+
+html(lang="en-US")
+
+  head
+    title This is the page title
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="/stylesheets/application.css")
+
+  body
+    
+    header
+      h1 Mortgage Calculator
+      section#mortgageCalc
+    main
+      p Simply enter the price of the home, your downpayment and the details of the homeland to calculate your mortgage payment breakdown.
+      
+      ul Home Price
+        
+        div.tiledBackground
+            
+            div.slidecontainer
+                input(type="range" 
+                      min="0" 
+                      max="10000000" 
+                      value="0" 
+                      class="slider"
+                      step="100" 
+                      id="myRange")
+                p1 $
+                    span(id="demo")  0
+        
+      ul Down Payment
+            
+            div.slidecontainer2
+                input(type="range" 
+                      min="0" 
+                      max="10000000" 
+                      value="0" 
+                      class="slider1"
+                      step="100" 
+                      id="myRange2")
+                <p1> $<span id="demo2">0</span><span id="demo3"> 0 </span> %
+</p1>
+                
+                    
+                        
+                
+                
+                
+      li Mortgage Loan Type
+        div(class="dropdown")   
+            button.arrow 
+            
+            div(id="myDropDown" class="dropdown-content")
+                //input(type="text" name="selected_input" id="showValue" value="15 Year Fixed")
+                
+                option(class="options" value="15") 15 Year Fixed
+                option(class="options" value="30") 30 Year Fixed
+        span(id="Loan") 15 Year Fixed
+        img(src="../images/scrollbar2.png" alt="Avatar" class="image")
+        script(type="text/javascript" src="/javascript/getLoan.js")
+      
+      div(class="chartBoard")
+        p3 $
+            span(id="totalMonth") 0 
+        p3 Monthly Payment  
+       
+        canvas(id="myChart" width="400" height="400")
+            
+        
+            
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js")
+        script(src="/javascript/mortgage_calc.js")
+        ol Principal & Interest
+            p2 $
+                span(id="demo4") 0 
+            div.icon
+                img(id="iconPrinc" src="../images/interest_icon.png" alt="Icon")
+            
+            
+        ol Property Tax
+            p2 $
+                span(id="taxes") 0
+            div.icon
+                img(id="iconTax" src="../images/tax_icon.png" alt="Icon")
+            
+            
+        ol Homeowners Insurance
+            p2 $
+                span(id="insurance") 66 
+            div.icon
+                img(id="iconIns" src="../images/insurance_icon.png" alt="Icon")
+            
+            script(type="text/javascript" src="/javascript/totalPay.js")
+         
+
+      
