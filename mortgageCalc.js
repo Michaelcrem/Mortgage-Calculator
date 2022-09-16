@@ -8,9 +8,12 @@ const port = process.env.PORT || 3000;
 
 app.set("views", "./views");
 app.set("view engine", "pug");
-
-
+app.use(morgan("common"));
 app.use(express.static("public"));
+app.use(express.urlencoded({ extended: false }));
+
+
+
 
 app.get("/", (req, res) => {
     res.render("calc");
@@ -18,6 +21,6 @@ app.get("/", (req, res) => {
 
 
 app.listen(port, host, () => {
-  console.log("Listening to port 2000.");
+  console.log(`Listening to port ${port} of ${host}!`);
 });
 
