@@ -30,7 +30,7 @@ function commas (num)  {
 
 
 slider.oninput = function() {
-    let regex = /[0-9]/g;
+    let regex = /[0-9\-]/g;
      
    
   output.innerHTML = commas(this.value);
@@ -55,7 +55,7 @@ slider.oninput = function() {
 
 
 slider1.oninput = function() {
-let regex = /[0-9]/g;
+    let regex = /[0-9\-]/g;
 
   output1.innerHTML = commas(this.value);
   output3.innerHTML = (Number(output1.innerHTML.match(regex).join('')) / Number(output.innerHTML.match(regex).join('')) * 100).toFixed(1); 

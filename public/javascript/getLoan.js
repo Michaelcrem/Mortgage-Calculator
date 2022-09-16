@@ -22,7 +22,7 @@ var totalPerMonth = document.getElementById("totalMonth")
 for(option of options) {
     option.onclick = function() {
         loan.innerHTML = this.textContent;
-        let regex = /[0-9]/g;
+        let regex = /[0-9\-]/g;
         let loanYear = loan.innerHTML;
         let months = Number(loanYear.match(regex).join('')) * 12;
         let annualInterestRate = Number(5) / 100;

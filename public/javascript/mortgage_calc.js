@@ -77,7 +77,7 @@ document.getElementById("Loan").addEventListener("dropdown", e => {
 
 
 function percentage(something, something1) {
-    let regex = /[0-9]/g;
+    let regex = /[0-9\-]/g;
     let loanYear = document.getElementById("Loan").innerHTML;
     let loanAmount = something - something1;
     let annualInterestRate = Number(5) / 100;
