@@ -9,15 +9,17 @@ function myFunction() {
   
 }
 
-// window.onclick = function(event) {
-//     if (!event.target.matches('.myBtn')) {
-//       var dropdowns = document.getElementsByClassName("dropdown-content");
-//       var i;
-//       for (i = 0; i < dropdowns.length; i++) {
-//         var openDropdown = dropdowns[i];
-//         if (openDropdown.classList.contains('show')) {
-//           openDropdown.classList.remove('show');
-//         }
-//       }
-//     }
-//   }
+window.onclick = function(event) {
+    if (!event.target.matches('#myBtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+          document.getElementById("scrollBar").classList.toggle("clickedImage");
+          document.getElementById("Loan").classList.toggle("loanTrans");
+        }
+      }
+    }
+  }
