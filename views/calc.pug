@@ -52,7 +52,7 @@ html(lang="en-US")
                 
       li Mortgage Loan Type
         div(class="dropdown")   
-            button.arrow 
+            button(id="myBtn" class="arrow") 
             
             div(id="myDropDown" class="dropdown-content")
                 //input(type="text" name="selected_input" id="showValue" value="15 Year Fixed")
@@ -60,8 +60,9 @@ html(lang="en-US")
                 option(class="options" value="15") 15 Year Fixed
                 option(class="options" value="30") 30 Year Fixed
         span(id="Loan") 15 Year Fixed
-        img(src="../images/scrollbar2.png" alt="Avatar" class="image")
+        img(id="scrollBar" src="../images/scrollbar2.png" alt="Avatar" class="image")
         script(type="text/javascript" src="/javascript/getLoan.js")
+        script(type="text/javascript" src="/javascript/buttonFeatures.js")
       
       div(class="chartBoard")
         p3 $

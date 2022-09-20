@@ -99,6 +99,8 @@ function percentage(something, something1) {
         option.onclick = function() {
             loan.innerHTML = this.textContent;
             loanYear = loan.innerHTML;
+            console.log(loanYear);
+            
             months = Number(loanYear.match(regex).join('')) * 12;
             
             
@@ -114,6 +116,10 @@ function percentage(something, something1) {
     output4.innerHTML = commas(interestPrince);
     totalPerMonth.innerHTML = commas(Number(output4.innerHTML.match(regex).join('')) + 
     Number(document.getElementById("taxes").innerHTML.match(regex).join('')) + Number(document.getElementById("insurance").innerHTML));
+    
+    document.getElementById("myDropDown").classList.toggle("show");
+    document.getElementById("scrollBar").classList.toggle("clickedImage");
+    document.getElementById("Loan").classList.toggle("loanTrans");
         }
         
         

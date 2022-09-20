@@ -176,16 +176,14 @@ body {
   
   }
 
-    button.arrow:hover {
+  /* button.arrow:hover {
+    transform: rotate(180deg);
+  } */
+
+    button.arrow:focus {
     transform: rotate(180deg);
   }
 
-  
-
-  /* .dropdown {
-    position: absolute;
-    display: inline-block;
-  } */
   
 
   .dropdown-content {
@@ -197,24 +195,73 @@ body {
     z-index: 1;
   }
   
-  .dropdown-content option  {
+   option  {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    cursor: pointer;
   }
   
-    .dropdown-content option:hover {
+    option:hover {
         background-image: linear-gradient(to left, transparent, rgb(134, 167, 228));
         border-radius: 15px;
+        cursor: pointer;
 }
-  
-  .dropdown:hover .dropdown-content {
+
+
+.options {
+    width: 100%;
+    padding: 15px;
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
     display: block;
   }
 
-  .show {display: none;}
+  #Loan{
+    position: relative;
+    /*left: -238px;*/
+    bottom: -40px;
+  }
+
+    .image {
+    display: block;
+    height: auto;
+    position: relative;
+    bottom: -42px;
+    left: -10px;
+    width: 100%;
+  }
+
+  .clickedImage {
+    position: relative;
+    bottom: -100px;
+    left: -10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  /* img.image {
+    position: relative;
+    bottom: -100px;
+    left: -10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    /*transition-duration: 0.4s};*/
+   
+
+/* .dropdown:hover ~ #Loan {
+    color: transparent;
+} */  
+
+
+.loanTrans {
+    color: transparent;
+}
+  
+
+  .show {display: block;}
+
+  .notShow {display:none;}
   
 
 
@@ -320,40 +367,9 @@ body {
   
 
 
-  .options {
-    width: 100%;
-    padding: 15px;
-    list-style: none;
-    cursor: pointer;
-    box-sizing: border-box;
-  }
+  
 
-  #Loan{
-    position: relative;
-    /*left: -238px;*/
-    bottom: -40px;
-  }
 
-  li > .image {
-    display: block;
-    height: auto;
-    position: relative;
-    bottom: -42px;
-    left: -10px;
-    width: 100%;
-  }
-
-  .dropdown:hover ~ img.image {
-    position: relative;
-    bottom: -100px;
-    left: -10px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-} 
-
-.dropdown:hover ~ #Loan {
-    color: transparent;
-}
 
 @media screen and (max-width: 800px) {
     h1 {

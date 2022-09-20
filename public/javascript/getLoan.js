@@ -29,18 +29,28 @@ for(option of options) {
         let monthlyInterestRate = annualInterestRate / 12;
         let loanAmount = Number(Number(output.innerHTML.match(regex).join('')) 
         - Number(output1.innerHTML.match(regex).join('')));
-
+        
     output4.innerHTML = commas((Number(loanAmount) * (monthlyInterestRate /
                   (1 - Math.pow((1 + monthlyInterestRate), (-Number(months)))))).toFixed(0));
 
     totalPerMonth.innerHTML = commas((Number(loanAmount) * (monthlyInterestRate /
     (1 - Math.pow((1 + monthlyInterestRate), (-Number(months)))))).toFixed(0));
 
-    
+    //document.getElementById("myDropDown").classList.toggle("show");
+    document.getElementById("Loan").classList.toggle("loanTrans");
+    document.getElementById("myDropDown").classList.toggle("show");
+    document.getElementById("scrollBar").classList.toggle("clickedImage");
+   
+    console.log(loanYear);
     }
     
     
 }
+
+
+
+
+
 
 
 
