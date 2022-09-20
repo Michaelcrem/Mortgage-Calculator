@@ -36,12 +36,13 @@ for(option of options) {
     totalPerMonth.innerHTML = commas((Number(loanAmount) * (monthlyInterestRate /
     (1 - Math.pow((1 + monthlyInterestRate), (-Number(months)))))).toFixed(0));
 
-    //document.getElementById("myDropDown").classList.toggle("show");
+    
     document.getElementById("Loan").classList.toggle("loanTrans");
     document.getElementById("myDropDown").classList.toggle("show");
     document.getElementById("scrollBar").classList.toggle("clickedImage");
+    document.getElementById("myBtn").classList.toggle("buttonAfter");
    
-    console.log(loanYear);
+    
     }
     
     

@@ -120,6 +120,7 @@ function percentage(something, something1) {
     document.getElementById("myDropDown").classList.toggle("show");
     document.getElementById("scrollBar").classList.toggle("clickedImage");
     document.getElementById("Loan").classList.toggle("loanTrans");
+    document.getElementById("myBtn").classList.toggle("buttonAfter");
         }
         
         

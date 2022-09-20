@@ -6,8 +6,10 @@ function myFunction() {
   document.getElementById("myDropDown").classList.toggle("show");
   document.getElementById("scrollBar").classList.toggle("clickedImage");
   document.getElementById("Loan").classList.toggle("loanTrans");
+  document.getElementById("myBtn").classList.toggle("buttonAfter");
   
 }
+/*If clicked outside of the button then the drop down menu should should just be exited*/
 
 window.onclick = function(event) {
     if (!event.target.matches('#myBtn')) {
@@ -19,7 +21,8 @@ window.onclick = function(event) {
           openDropdown.classList.remove('show');
           document.getElementById("scrollBar").classList.toggle("clickedImage");
           document.getElementById("Loan").classList.toggle("loanTrans");
-        }
+          document.getElementById("myBtn").classList.toggle("buttonAfter");
       }
     }
-  }
+}
+}

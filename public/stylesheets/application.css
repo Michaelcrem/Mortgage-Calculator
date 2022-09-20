@@ -176,11 +176,15 @@ body {
   
   }
 
-  /* button.arrow:hover {
-    transform: rotate(180deg);
-  } */
+  button.arrow:hover {
+    background-size: 32px;
+  }
 
     button.arrow:focus {
+    transform: rotate(0deg);
+  }
+
+  button.arrow.buttonAfter {
     transform: rotate(180deg);
   }
 
