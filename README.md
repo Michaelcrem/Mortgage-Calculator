@@ -3,7 +3,7 @@ The Prototype design I built in Adobe XD and After Effects: https://mcremoni.myp
 
 Full stack project: https://sliding-mortgage-calculator.herokuapp.com/
 
-## Obtaining user input values, 
+## Obtaining user input values 
 
 I wanted to incoporate range sliders which are both used to calculate the total loan amount of the listing price. A drop down menu to obtain a 15 year or 30 year fixed mortgage loan for calculated monthly payments.     
 
