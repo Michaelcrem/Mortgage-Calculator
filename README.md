@@ -3,7 +3,7 @@ The Prototype design I built in Adobe XD and After Effects: https://mcremoni.myp
 
 Full stack project: https://sliding-mortgage-calculator.herokuapp.com/
 
-# For obtaining user input values, I wanted to incoporate range sliders which are both used to calculate the total loan amount needed on the listing price. 
+## For obtaining user input values, I wanted to incoporate range sliders which are both used to calculate the total loan amount needed on the listing price. 
 
 The first range slider is used to obtain the user input for the total home price. The range of the home price slider starts from 0 and ends at 10 million. The user can scroll the slider to the right for a greater number and left for a smaller number. 
 
