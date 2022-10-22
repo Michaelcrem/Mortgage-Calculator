@@ -11,9 +11,12 @@ Full stack project: https://sliding-mortgage-calculator.herokuapp.com/
 
 * Once the loan price is obtained, the value is used in a mathmatical algorithm used to calculate the monthly mortage payments. Data used concurrently with the loan amount to calculate the monthly mortage payment consist of: 
     * 5 percent interest rate 
+    * 15 or 30 year loan options 
     * the average U.S. mill rate (.008) (used to calculate property tax) 
     * home insuarnace ($22 / monthley rough estimitate) 
 
 Depending on how the user scrolls each range slider, the value of the expression will get reasigned to a new value. 
+
+## Styling and Data Visualization
 
   
