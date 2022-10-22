@@ -14,4 +14,6 @@ Full stack project: https://sliding-mortgage-calculator.herokuapp.com/
     * the average U.S. mill rate (.008) (used to calculate property tax) 
     * home insuarnace ($22 / monthley rough estimitate) 
 
+Depending on how the user scrolls each range slider, the value of the expression will get reasigned to a new value. 
+
   
