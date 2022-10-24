@@ -2,7 +2,7 @@
 A networked application that uses Express.js as a framework to run on port 3000 (mortageCal.js) application uses Pug template engine to provide layout.   
 
 
-The Prototype design I built in Adobe XD and After Effects: https://mcremoni.myportfolio.com/mortgage-calculator
+The UI Prototype design I built in Adobe XD and After Effects: https://mcremoni.myportfolio.com/mortgage-calculator
 
 Full stack project network application: https://sliding-mortgage-calculator.herokuapp.com/
 
@@ -20,8 +20,10 @@ I wanted to incoporate range sliders which are both used to calculate the total 
     * the average U.S. mill rate (.008) (used to calculate property tax) 
     * home insuarnace ($22 / monthley rough estimitate) 
 
-Depending on how the user scrolls each range slider, the value of the expression will get reasigned to a new value. 
+Depending on how the user scrolls each range slider, the value of the expression will get reasigned to a new value for the total mortgage payments. 
 
 ## Styling and Data Visualization
+
+The styling of my project derived from a past project I had completed for the '100 Days of Design' challenges where for day 19, I had to design a mockup for a calculator application and so I created a home mortgage design in Adobe Xd and the scrolling animation in After Effects: https://mcremoni.myportfolio.com/mortgage-calculator 
 
   
