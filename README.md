@@ -14,7 +14,7 @@ I wanted to incoporate range sliders which are both used to calculate the total 
 
 * The second range slider obtains the user input of the downpayment. Same as the first range slider, sliding it to the right will obtain a greater number and left for a smaller number. From there, both of the element values from both range sliders are used together to get the value of the loan where the input of the second range slider (downpayment input) is subtracted from the first range slider (total home price). 
 
-* Once the loan price is obtained, the value is used in a mathmatical algorithm used to calculate the monthly mortage payments. Data used concurrently with the loan amount to calculate the monthly mortage payment consist of: 
+* Once the loan price is obtained, the value is used in a mathmatical algorithm to calculate the monthly mortage payments. Data used concurrently with the loan amount to calculate the monthly mortage payment consist of: 
     * 5 percent interest rate 
     * 15 or 30 year loan options 
     * the average U.S. mill rate (.008) (used to calculate property tax) 
@@ -26,8 +26,9 @@ Depending on how the user scrolls each range slider, the value of the expression
 
 The styling of my project derived from a past project I had completed for the '100 Days of Design' challenges where for day 19, I had to design a mockup for a calculator application and so I created a home mortgage loan calculator design in Adobe XD and the scrolling animation in After Effects: https://mcremoni.myportfolio.com/mortgage-calculator 
 
-* Pug template engine used concurrently with the Express framework in order to provide for the layout / structure of the application. CSS used for stylizing the frontend of the apploication and all fonts (Muli), colors (Hex #39D6F7, Hex #7071B4), and static assets such as scrolling buttons, and drop down buttons created from my original 100 days of design project.
+* Pug template engine used concurrently with the Express framework in order to provide the layout / structure of the application. CSS used for stylizing the frontend of the apploication and all fonts (Muli), colors (Hex #39D6F7, Hex #7071B4), and static assets such as scrolling buttons, and drop down buttons created from my original 100 days of design project.
 
-* Chart.js library used to provide a visual represenation of how the mortage payments is divided into, principle/interest, property tax, and home insurance is paid each month.    
+* Chart.js library used to provide a visual represenation of how the mortage payments is divided into, principle/interest, property tax, and home insurance is paid each month. 
+   * Each variable, (interest payment, property tax, and home insurance) is assigned to a key value pair in my chart object to break down visually total payments in a mortgage.      
 
   
