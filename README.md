@@ -1,7 +1,10 @@
 # Mortgage-Loan-Calculator
+A networked application that uses Express.js as a framework to run on port 3000 (mortageCal.js) application uses Pug template engine to provide layout.   
+
+
 The Prototype design I built in Adobe XD and After Effects: https://mcremoni.myportfolio.com/mortgage-calculator
 
-Full stack project: https://sliding-mortgage-calculator.herokuapp.com/
+Full stack project network application: https://sliding-mortgage-calculator.herokuapp.com/
 
 ## Obtaining and Calculating user input values 
 
