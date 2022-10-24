@@ -26,10 +26,10 @@ Depending on how the user scrolls each range slider and their options of mortage
 
 The styling of my project derived from a past project I had completed for the '100 Days of Design' challenges where for day 19, I had to design a mockup for a calculator application and so I created a home mortgage loan calculator design in Adobe XD and the scrolling animation in After Effects: https://mcremoni.myportfolio.com/mortgage-calculator 
 
-* Pug template engine used concurrently with the Express framework in order to provide the visual layout / structure of the application. CSS used for stylizing the frontend of the apploication and all fonts (Muli), colors #39D6F7,  #7071B4, and static assets such as scrolling buttons, and drop down buttons created from my original 100 days of design project.
+* Pug template engine used concurrently with the Express framework in order to provide the visual layout / structure of the application. CSS used for stylizing the frontend of the apploication and all fonts (Muli), background colors #39D6F7,  #7071B4, and static assets such as scrolling buttons, and drop down buttons created from my original 100 days of design project.
 
 * Chart.js library used to provide a visual represenation of how the mortage payments is divided into, principle/interest, property tax, and home insurance  paid in each month. 
    * Each variable value, (interest payment, property tax, and home insurance) are assigned to a key/value pair in my chart object to break down visually the total payments in a mortgage.  
-   * Colors such as #566D79, #94BCD1, #D3DEE3 are used to correlate with the chart object key/value pairs in order to distinguish the the value of the interest payment, property tax, and home insurance variables.    
+   * Colors such as #566D79, #94BCD1, #D3DEE3 are used to correlate with in chart object key/value pairs in order to distinguish the the value of the interest payment, property tax, and home insurance variables.    
 
   
