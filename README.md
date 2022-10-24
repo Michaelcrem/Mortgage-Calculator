@@ -24,7 +24,7 @@ Depending on how the user scrolls each range slider, the value of the expression
 
 ## Styling and Data Visualization
 
-The styling of my project derived from a past project I had completed for the '100 Days of Design' challenges where for day 19, I had to design a mockup for a calculator application and so I created a home mortgage design in Adobe XD and the scrolling animation in After Effects: https://mcremoni.myportfolio.com/mortgage-calculator 
+The styling of my project derived from a past project I had completed for the '100 Days of Design' challenges where for day 19, I had to design a mockup for a calculator application and so I created a home mortgage loan calculator design in Adobe XD and the scrolling animation in After Effects: https://mcremoni.myportfolio.com/mortgage-calculator 
 
 * Pug template engine used concurrently with the Express framework in order to provide for the layout / structure of the application. CSS used for stylizing the frontend of the apploication and all fonts (Muli), colors (Hex #39D6F7, Hex #7071B4), and static assets such as scrolling buttons, and drop down buttons created from my original 100 days of design project.
 
