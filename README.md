@@ -1,5 +1,5 @@
 # Mortgage-Loan-Calculator
-A networked application that uses Express.js as a framework to run on port 3000 (mortageCal.js). Application uses Pug template engine to provide layout/structure.       
+A network application that uses Express.js as a framework and listens to requests from the browser on port 3000 (mortageCal.js). Application uses Pug template engine to provide layout/structure.       
 
 
 The UI Prototype design I built in Adobe XD and After Effects: https://mcremoni.myportfolio.com/mortgage-calculator
