@@ -4,7 +4,7 @@ A network application that uses Express.js as a framework and listens to request
 
 The UI Prototype design I built in Adobe XD and After Effects: https://mcremoni.myportfolio.com/mortgage-calculator
 
-Full stack project network application: https://sliding-mortgage-calculator.herokuapp.com/
+Full stack project network application: 
 
 ## Obtaining and Calculating user input values 
 
